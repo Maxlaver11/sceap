@@ -25,10 +25,10 @@ cpass.read('config.data')
 
 from telethon.sync import TelegramClient
 
-api_id = 'your_api_id'
-api_hash = 'your_api_hash'
+api_id = '24352980'
+api_hash = 'de976ef6eeba9cbb57372e91024a20c7'
 
-phone_number = 'your_phone_number'
+phone_number = '+6281529415468'
 client_name = 'your_client_name'
 
 # Membuat objek client
