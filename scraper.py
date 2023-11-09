@@ -40,7 +40,7 @@ client.connect()
 # Memeriksa apakah perlu kata sandi untuk verifikasi dua langkah
 if not client.is_user_authorized():
     # Meminta nomor telepon
-    client.send_code_request(phone_number)
+    client.send_code_request(+6281529415468)
 
     # Memasukkan kode yang dikirim ke nomor telepon
     code = input('Masukkan kode yang dikirim ke nomor telepon: ')
@@ -48,7 +48,7 @@ if not client.is_user_authorized():
 
     # Memasukkan kata sandi untuk verifikasi dua langkah
     password = input('Masukkan kata sandi untuk verifikasi dua langkah: ')
-    client.sign_in(password=password)
+    client.sign_in(password="password")
 
 # Melakukan operasi Telegram selanjutnya setelah terautentikasi
 # ...
